@@ -1,0 +1,38 @@
+{
+  "name": "dc-bot",
+  "version": "0.0.1",
+  "description": "dc-bot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^9.2.0",
+    "express": "^4.16.2",
+    "fetch": "^1.1.0",
+    "ffprobe": "^1.1.0",
+    "ffprobe-static": "^2.0.0",
+    "fs": "0.0.1-security",
+    "mp4js": "0.0.2",
+    "node-fetch": "^2.1.2",
+    "read-file": "^0.2.0",
+    "read-text-file": "^1.1.0",
+    "typescript": "^2.9.1",
+    "typings": "^2.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/build-a-discord-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.3.2"
+  }
+}
